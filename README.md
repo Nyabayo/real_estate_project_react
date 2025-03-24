@@ -14,7 +14,9 @@ Responsive design.
 
 Screenshots
 
-assets/Screenshot/Screenshot1.pngassets/Screenshot/Screenshot2.png
+assets/Screenshot/Screenshot1.png
+
+assets/Screenshot/Screenshot2.png
 
 Installation
 
