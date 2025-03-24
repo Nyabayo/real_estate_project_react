@@ -1,0 +1,27 @@
+/* Footer container */
+.footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  font-size: 1rem;
+}
+
+/* Scroll-to-top button */
+.scroll-top {
+  background-color: #f5a623;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background 0.3s ease-in-out;
+}
+
+/* Button hover effect */
+.scroll-top:hover {
+  background-color: #e69500;
+}

@@ -7,6 +7,7 @@ import Contact from "./Pages/Contact/Contact.jsx";
 import EstateDetails from "./Pages/EstateDetails/EstateDetails.jsx";
 
 
+
 const App = () => {
   return (
     <div>
@@ -17,6 +18,7 @@ const App = () => {
             <Route path='/contact' element= {<Contact />} />
             <Route path='/home/:id' element= {<EstateDetails />} />
         </Routes>
+
 
     </div>
   )

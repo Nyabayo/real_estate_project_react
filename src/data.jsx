@@ -1,23 +1,23 @@
-import villa1 from "../assets/images/villa1.jpg";
-import villa2 from "../assets/images/villa2.jpg";
-import villa3 from "../assets/images/villa3.jpg";
-import apartment1 from "../assets/images/apartment1.jpg";
-import apartment2 from "../assets/images/apartment2.jpg";
-import apartment3 from "../assets/images/apartment3.jpg";
-import office1 from "../assets/images/office1.jpg";
-import office2 from "../assets/images/office2.jpg";
-import office3 from "../assets/images/office3.jpg";
-import bungalow1 from "../assets/images/bungalow1.jpg";
-import bungalow2 from "../assets/images/bungalow2.jpg";
-import bungalow3 from "../assets/images/bungalow3.jpg";
-import glasshouse1 from "../assets/images/glasshouse1.jpg";
-import glasshouse2 from "../assets/images/glasshouse2.jpg";
-import bedsitter1 from "../assets/images/bedsitter1.jpg";
-import bedsitter2 from "../assets/images/bedsitter2.jpg";
-import onebedroom1 from "../assets/images/onebedroom1.jpg";
-import onebedroom2 from "../assets/images/onebedroom2.jpg";
-import singleroom1 from "../assets/images/singleroom1.jpg";
-import singleroom2 from "../assets/images/singleroom2.jpg";
+import villa1 from "./assets/images/villa1.jpg";
+import villa2 from "./assets/images/villa2.jpg";
+import villa3 from "./assets/images/villa3.jpg";
+import apartment1 from "./assets/images/apartment1.jpg";
+import apartment2 from "./assets/images/apartment2.jpg";
+import apartment3 from "./assets/images/apartment3.jpg";
+import office1 from "./assets/images/office1.jpg";
+import office2 from "./assets/images/office2.jpg";
+import office3 from "./assets/images/office3.jpg";
+import bungalow1 from "./assets/images/bungalow1.jpg";
+import bungalow2 from "./assets/images/bungalow2.jpg";
+import bungalow3 from "./assets/images/bungalow3.jpg";
+import glasshouse1 from "./assets/images/glasshouse1.jpg";
+import glasshouse2 from "./assets/images/glasshouse2.jpg";
+import bedsitter1 from "./assets/images/bedsitter1.jpg";
+import bedsitter2 from "./assets/images/bedsitter2.jpg";
+import onebedroom1 from "./assets/images/onebedroom1.jpg";
+import onebedroom2 from "./assets/images/onebedroom2.jpg";
+import singleroom1 from "./assets/images/singleroom1.jpg";
+import singleroom2 from "./assets/images/singleroom2.jpg";
 
 const properties = [
   {
@@ -28,7 +28,7 @@ const properties = [
     rooms: 6,
     beds: 4,
     image: villa1,
-    property: "Villa",
+    propertyType: "Villa",
     description: "Luxury villa available for monthly rental.",
   },
   {
@@ -39,7 +39,7 @@ const properties = [
     rooms: 3,
     beds: 2,
     image: apartment1,
-    property: "Apartment",
+    propertyType: "Apartment",
     description: "Modern apartment available for monthly rental.",
   },
   {
@@ -50,7 +50,7 @@ const properties = [
     rooms: 5,
     beds: 0,
     image: office1,
-    property: "Office",
+    propertyType: "Office",
     description: "Spacious office space available for monthly rental.",
   },
   {
@@ -61,7 +61,7 @@ const properties = [
     rooms: 4,
     beds: 3,
     image: bungalow1,
-    property: "Bungalow",
+    propertyType: "Bungalow",
     description: "A stylish bungalow available for monthly rental.",
   },
   {
@@ -72,7 +72,7 @@ const properties = [
     rooms: 2,
     beds: 1,
     image: glasshouse1,
-    property: "Glasshouse",
+    propertyType: "Glasshouse",
     description: "A scenic glasshouse available as a guest house on a daily basis.",
   },
   {
@@ -83,7 +83,7 @@ const properties = [
     rooms: 1,
     beds: 1,
     image: bedsitter1,
-    property: "Bed Sitter",
+    propertyType: "Bed Sitter",
     description: "Affordable bed sitter available for monthly rental.",
   },
   {
@@ -94,7 +94,7 @@ const properties = [
     rooms: 2,
     beds: 1,
     image: onebedroom1,
-    property: "One Bedroom",
+    propertyType: "One Bedroom",
     description: "Spacious one-bedroom available for monthly rental.",
   },
   {
@@ -105,7 +105,7 @@ const properties = [
     rooms: 1,
     beds: 1,
     image: singleroom1,
-    property: "Single Room",
+    propertyType: "Single Room",
     description: "Budget single room available for monthly rental.",
   },
   {
@@ -116,7 +116,7 @@ const properties = [
     rooms: 5,
     beds: 4,
     image: villa2,
-    property: "Villa",
+    propertyType: "Villa",
     description: "Luxury seaside villa available for monthly rental.",
   },
   {
@@ -127,7 +127,7 @@ const properties = [
     rooms: 3,
     beds: 2,
     image: apartment2,
-    property: "Apartment",
+    propertyType: "Apartment",
     description: "Modern apartment available for monthly rental.",
   },
   {
@@ -138,7 +138,7 @@ const properties = [
     rooms: 6,
     beds: 0,
     image: office2,
-    property: "Office",
+    propertyType: "Office",
     description: "Premium office space available for monthly rental.",
   },
   {
@@ -149,7 +149,7 @@ const properties = [
     rooms: 4,
     beds: 3,
     image: bungalow2,
-    property: "Bungalow",
+    propertyType: "Bungalow",
     description: "Scenic bungalow available for monthly rental.",
   },
   {
@@ -160,7 +160,7 @@ const properties = [
     rooms: 2,
     beds: 1,
     image: glasshouse2,
-    property: "Glasshouse",
+    propertyType: "Glasshouse",
     description: "A beautiful glasshouse available as a guest house on a daily basis.",
   },
   {
@@ -171,7 +171,7 @@ const properties = [
     rooms: 1,
     beds: 1,
     image: bedsitter2,
-    property: "Bed Sitter",
+    propertyType: "Bed Sitter",
     description: "Spacious bed sitter available for monthly rental.",
   },
   {
@@ -182,7 +182,7 @@ const properties = [
     rooms: 2,
     beds: 1,
     image: onebedroom2,
-    property: "One Bedroom",
+    propertyType: "One Bedroom",
     description: "Comfortable one-bedroom available for monthly rental.",
   },
   {
@@ -193,7 +193,7 @@ const properties = [
     rooms: 1,
     beds: 1,
     image: singleroom2,
-    property: "Single Room",
+    propertyType: "Single Room",
     description: "Affordable single room available for monthly rental.",
   },
   {
@@ -204,7 +204,7 @@ const properties = [
     rooms: 6,
     beds: 5,
     image: villa3,
-    property: "Villa",
+    propertyType: "Villa",
     description: "Luxury royal villa available for monthly rental.",
   },
   {
@@ -215,7 +215,7 @@ const properties = [
     rooms: 3,
     beds: 2,
     image: apartment3,
-    property: "Apartment",
+    propertyType: "Apartment",
     description: "Modern apartment available for monthly rental.",
   },
   {
@@ -226,7 +226,7 @@ const properties = [
     rooms: 5,
     beds: 0,
     image: office3,
-    property: "Office",
+    propertyType: "Office",
     description: "High-end office space available for monthly rental.",
   },
   {
@@ -237,9 +237,9 @@ const properties = [
     rooms: 4,
     beds: 3,
     image: bungalow3,
-    property: "Bungalow",
+    propertyType: "Bungalow",
     description: "Serene bungalow available for monthly rental.",
-  }
+  },
 ];
 
 export default properties;
